@@ -1,33 +1,17 @@
 {
 	"image": "mcr.microsoft.com/devcontainers/universal:2",
-	"customizations": {
-			"vscode": {
-				"extensions": [
-					"esbenp.prettier-vscode",
-					"vscode-icons-team.vscode-icons",
-					"wayou.vscode-todo-highlight"
-				],
-				"settings": {
-					"editor.fontSize": 32,
-					"terminal.integrated.fontSize": 24,
-					"editor.wordWrap": "on"
-				}
-				
-			}
-			
-		 },
 	"features": {
 		"ghcr.io/cirolosapio/devcontainers-features/alpine-node:0": {},
 		"ghcr.io/devcontainers-extra/features/corepack:1": {},
 		"ghcr.io/devcontainers-extra/features/lighthouse-cli:1": {},
-		"ghcr.io/devcontainers-extra/features/linode-cli:1": {},
 		"ghcr.io/devcontainers-extra/features/lite-server:1": {},
 		"ghcr.io/devcontainers-extra/features/mocha:2": {},
 		"ghcr.io/devcontainers-extra/features/prisma:2": {},
 		"ghcr.io/devcontainers-extra/features/ts-node:1": {},
-		"ghcr.io/devcontainers-extra/features/tsx:1": {},
-		"ghcr.io/devcontainers-extra/features/vercel-ncc:1": {},
 		"ghcr.io/devcontainers-extra/features/vercel-pkg:1": {},
+		"ghcr.io/devcontainers-extra/features/nestjs-cli:2": {},
+		"ghcr.io/devcontainers-extra/features/node-asdf:0": {},
+		"ghcr.io/roul/devcontainer-features/mise-node:1": {}
 		
 	}
 	
