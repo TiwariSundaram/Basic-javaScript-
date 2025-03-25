@@ -1,0 +1,16 @@
+{
+	"image": "mcr.microsoft.com/devcontainers/universal:2",
+	"features": {
+		"ghcr.io/cirolosapio/devcontainers-features/alpine-node:0": {},
+		"ghcr.io/devcontainers-extra/features/corepack:1": {},
+		"ghcr.io/devcontainers-extra/features/lighthouse-cli:1": {},
+		"ghcr.io/devcontainers-extra/features/linode-cli:1": {},
+		"ghcr.io/devcontainers-extra/features/lite-server:1": {},
+		"ghcr.io/devcontainers-extra/features/mocha:2": {},
+		"ghcr.io/devcontainers-extra/features/prisma:2": {},
+		"ghcr.io/devcontainers-extra/features/ts-node:1": {},
+		"ghcr.io/devcontainers-extra/features/tsx:1": {},
+		"ghcr.io/devcontainers-extra/features/vercel-ncc:1": {},
+		"ghcr.io/devcontainers-extra/features/vercel-pkg:1": {}
+	}
+}
