@@ -67,3 +67,31 @@ console.log(numberValue);
  /*   1=> true  ;  0 => false
     ""= false  ; " Sundaram" => true
 */
+
+// **************************operations**************************
+
+// console.log(2+3);
+// console.log(3*3);
+// console.log(65-7);
+// console.log(3**2);
+// console.log(7/4);
+
+let str1="Sundaram";
+let str2 =" Tiwari";
+
+let str3= str1+str2;
+console.log(str3);
+
+console.log("5"+4);
+console.log(4+"5");
+console.log(4+4+"7");
+console.log("4"+4+7);
+
+
+
+
+
+
+
+
+
