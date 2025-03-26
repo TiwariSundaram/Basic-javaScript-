@@ -30,6 +30,7 @@ const bigNumber=846373672373268322837632;
 //  1.Array  
 
 const heroes=["shaktiman","ironman","God"];
+
 // 2. Objects 
 
 const detail={
