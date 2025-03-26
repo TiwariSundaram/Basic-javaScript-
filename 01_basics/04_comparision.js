@@ -16,6 +16,7 @@ console.log(null>=0);
 console.log(null>0);
 
 
+
 //   == compare only vale while === compare the value and it's data type
 
 // false "2"===2
