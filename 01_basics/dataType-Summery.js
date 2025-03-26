@@ -1,5 +1,6 @@
 
 
+
 // JavaScript is a dynamically typed language, meaning the type of a variable is determined during runtime, not at compile time, and there is not need to mention variable dataType as compare to java,c,c++ like languages
 
 // typeScript is a statically typed language
