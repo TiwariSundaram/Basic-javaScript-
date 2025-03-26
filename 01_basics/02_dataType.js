@@ -3,7 +3,6 @@
 "use strict"; 
 
 
-
 // number=>2 to power 4
 // bigInt
 // String => ""
