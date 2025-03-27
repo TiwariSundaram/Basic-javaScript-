@@ -61,3 +61,10 @@ const myFunction=function(){
 //      Object  (native and does not implement [[Call]])	  =>   "object"
 //      Object (native or host and does implement [[Call]])   =>     	"function"
 //     Object (host and does not implement [[Call]])	      => Implementation-defined except may not be "undefined", "boolean", "number", or "string".
+
+
+// ############################  Memory ########################
+
+// there are two type of memory in js ---
+//   1. Stack     =>    it is use for the premitive data type mean call by value
+//   2.Heap       =>  it is use for non-premitive data type  means call by reference
