@@ -10,7 +10,6 @@ console.log(balance);
 // .tostring() => this method convert the number in string ,once it convert in string ,it contain all property  of string like .toUpperCase(),.length() etc.
 
 console.log(balance.toString());
-console.log(balance.toString().length());
 
 // .tofixed(num) => The toFixed() method rounds the string to a specified number of decimals.If the number of decimals are higher than in the num, zeros are added
 console.log(balance.toFixed(2));
@@ -53,6 +52,15 @@ console.log(Math.min(45,74,24,35));
 
 console.log(Math.max(54,76,36));
 
-// Math.random() => it gives the random value between 0 to 1 
-
+// Math.random() => it gives the random value from 0 to 1 but not 1 if i want to the number between 1 to 10 than we multiply by 10 and add 1 ,we add here 1 for avoiding 0
 console.log(Math.random());
+
+console.log((Math.random()*10)+1);
+
+const min =10;
+const max= 20;
+
+console.log(Math.floor(Math.random()*(max-min+1))+min);
+
+
+
