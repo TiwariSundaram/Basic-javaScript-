@@ -58,3 +58,58 @@ console.log(myArray);
 console.log(newArr);
 console.log(typeof newArr);
 
+// 8. .slice() => gives the copies aportion of an array
+
+let color=["red", "blue","yellow","orange","pink","white"];
+
+console.log(color.slice());
+
+// .slice(number) => if we pass a single number then it considerd as a starting index value , then it gives the copy from starting index value to end of array, if the given index value not exist in array then it gives empty array
+
+console.log( ".slice(2) ," +color.slice(2));
+console.log(".slice(12) ," +color.slice(12));
+
+
+// .slice( starting index ,end index) => it return the copy from starting index to (ending index -1), here ending index value not includes
+
+console.log(".slice(2,4); "+color.slice(2,4));
+
+// .slice(-number) => if the passing number is negative then also it considered as starting value but from last 
+
+console.log("After .slice (-3) => "+color.slice(-3));
+
+// 9. .splice(start index,deleteCount,item0....itemN) =>  it changes in original array 
+
+    // slice: it removes /replace/add element in place
+
+    // deleteCount tell how many element will be deleted from the starting index . deleteCount is optional ,if i want to no element delete then we can  set value 0
+
+    // we can add item0  to itemN from the starting index or we can say that it replace the deleted value
+ 
+// when only starting index is being pass then it remove all the index element from the starting index to till end of array 
+
+    console.log("color = "+color.slice());
+    
+    console.log(".splice(starting index) "+(color.splice(3)));
+
+    console.log("after .splice(3) =>"+ color);
+    
+// when two number pass then first is considered as starting index and 2nd is deleteCount
+   
+    console.log(".splice(starting Index,deleteCount) =>"+color.splice(0,1));
+
+    console.log( " after .splice(0,1) => "+color);
+
+// when pass stating index ,deletecount and items then deleted element will replaced by items 
+
+    console.log(".splice(start index,deleteCount,item0....itemN) =>"+color.splice(0,1,"black","grey"));
+
+    console.log("After .splice(0,1,'black','grey') " +color);
+    
+// when we only add the element from the starting index then we have to se deleteCount value o for example if we want to add teal and brown color in index 1 the we can set starting index 1, deleteCount 0, and elements , here element of 1st index will comes after this items
+
+    console.log(color.splice(1,0,"teal","brown"));
+    
+    
+    
+    
