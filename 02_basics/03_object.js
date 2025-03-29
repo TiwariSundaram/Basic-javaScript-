@@ -26,6 +26,8 @@
     console.log(details["age"]);
     console.log(details["fullName"]);
     console.log(details["symbol"]);
+    console.log(typeof details["symbol"]);
+    
     
     
 // to change key value we can write objectName.key="newValue of key"
@@ -36,6 +38,28 @@
     
 // Object.freeze(objectName) => if i want to nobody can change the objects key value than we can use  Object.freeze(objectName) method
 
-    Object.freeze(details);
+    // Object.freeze(details);
+    // it can't be change due to freeze
+    // details.age = 22;
+
+
+// function adding in object
+  
+    details.greeting = function(){
+        console.log("Jay Shree Ram");
+    }
+    // gives only function references 
+    // output  =>  function (anonymous)
+    console.log(details.greeting);
     
-    details.age = 22;
+    // it gives the greeting value that in object
+    console.log(details.greeting());
+    
+
+    // here we use this keyword that access the key value from the details objects
+    details.greetingTwo = function (){
+        console.log(`Hello mr. ${this.name}`);
+    }
+
+    console.log(details.greetingTwo());
+    
