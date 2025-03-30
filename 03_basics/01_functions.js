@@ -36,3 +36,11 @@ function loginUserMessage(userName = "Tiwari"){
     return `${userName} just logged in`
 }
 console.log(loginUserMessage("Sundaram"));
+
+
+// rest operator   ...
+
+function calculateCartPrice(...num1){
+    return num1;
+}
+console.log(calculateCartPrice(200,234,847));
