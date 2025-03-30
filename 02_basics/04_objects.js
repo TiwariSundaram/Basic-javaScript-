@@ -81,6 +81,22 @@
     // ObjectName.hasOwnProperty('key') => .hasOwnProperty(key) return boolean value ,it check the key is present in ObjectName or not 
     
     console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+    //############  object de-structure
+    const cource ={
+        courceName :"js",
+        price:99,
+        courceInstructor:"hitesh"
+    }
+    // cource.CourceInstructor   or
+    // const {courceInstructor} =cource;
+
+    // console.log(courceInstructor);
+
+    const {courceInstructor:instructor} =cource;
+
+    console.log(instructor);
+    
     
 // Non singleton object
  
