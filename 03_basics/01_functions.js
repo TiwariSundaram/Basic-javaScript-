@@ -44,3 +44,33 @@ function calculateCartPrice(...num1){
     return num1;
 }
 console.log(calculateCartPrice(200,234,847));
+
+
+//****************  ########### object as arguments   ###########
+
+const user ={
+    userName: "Sundaram",
+    price : 99
+};
+
+function handleObject (anyObject){
+    console.log(` Username is ${anyObject.userName} and price is ${anyObject.price}`);
+}
+// handleObject(user);    or
+
+handleObject({
+    userName:"Sundaram",
+    price : 999
+})
+
+// ######################  Array as arguments  ################
+
+const myNewArray =[2 ,23,432,43,32];
+
+function returnSecondValue(getArray){
+    return getArray[1];
+}
+// console.log(returnSecondValue(myNewArray));    or
+
+console.log(returnSecondValue([34,24,56,21]));
+
