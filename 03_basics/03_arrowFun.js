@@ -12,6 +12,7 @@ user.welcomeMessagee();
 user.username="Tiwari"
 user.welcomeMessagee();
 
+// here this keyword return empty {} 
 console.log(this);
 
 // function chai(){
@@ -25,6 +26,7 @@ console.log(this);
 
 chai = ()=>{
     let username = "Sam"
+    // this. username = undefined 
     // here this keyword return empty {}
     console.log(this);
     
@@ -38,8 +40,8 @@ const addTwo =(num1,num2)=>{
 console.log(addTwo(87,38));
 
 
-// emplicite return =>  here we not need tor use return keyword it automatically return
-// when we use {} in arrow function the we have to use return keyword if want to return  while when we not use {} or we use () in Arrow function then no need to write return keyword
+// implicit return =>  here we not need tor use return keyword it automatically return
+// when we use {} in arrow function then we have to use return keyword if want to return  while when we not use {} or we use () in Arrow function then no need to write return keyword
 
 
 // const addThree = (num1,num2,num3)=>num1+num2+num3
