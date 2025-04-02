@@ -8,7 +8,7 @@ if(true){
 
 let temp = 40;
 
-// if(condition){}else{} => here when the condition will be true than the code  that is writen inside the if statement will be executed otherwise else statement will execute
+// if(condition){}else{} => here when the condition will be true than the code  that is writen inside the if statement will be executed otherwise else statement will execute , once the if statement has execited , else statement will not execute
 
 if(temp ===40){
     console.log("less than 50"); 
@@ -33,6 +33,7 @@ if(temp ===40){
    if(balance<500){
     console.log("less than 500");  
    }
+
    else if( balance<750){
        console.log("less than 750"); 
    }
