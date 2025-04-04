@@ -1,5 +1,7 @@
 // ###############  FOR  IN LOOP ###############
 
+// it always return key of object or array
+// it is not iterable for map
 
 
 // for (const key in object) {
