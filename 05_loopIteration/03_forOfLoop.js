@@ -1,5 +1,8 @@
 // #############  for of loop ############
 
+// it  return value of index/key
+// it is not iterable for objects of javaScript
+
 // for (const element of object) {
     
 // }
