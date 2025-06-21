@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: #212121; color:coral">
+
+    <h2>jay Mahakal</h2>
+    <button id="start">start</button>
+    <button id="stop">stop</button>
+</body>
+<script>
+    let intervalid
+    let randomColor = function(){
+        const hex = "0123456789ABCDEF"
+        let color ="#"
+        for(let i =0; i<6 ;i++){
+            color+=hex[Math.floor(Math.random()*16)]
+        }
+        return color
+    }
+
+    
+    const colorChange =function(){
+        console.log("clicked");
+        
+        intervalid= setInterval(function(){
+        document.querySelector('h2').style.color=randomColor()
+    },1000)
+    }
+    document.getElementById('start').addEventListener('click',colorChange)
+    
+    document.getElementById('stop').addEventListener('click',function(){
+        clearInterval(intervalid)
+    })
+    
+</script>
+</html>
