@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: #212121; color:aqua">
+    <h2 id="name">Jay Shree Ram</h2>
+    <button id="stop">stop</button>
+</body>
+     <script>
+        setInterval(function(){
+            console.log("jay Shree Ram");
+        },2000)
+
+        const say = function(){
+            console.log("radhe radhe");
+        }
+        const stopWishing2=setInterval(say,2050)
+
+        const say2 =  function(str){
+            console.log(str);  
+        }
+       const stopWishing1= setInterval(say2,3000,"har har mahadev")
+
+       document.getElementById('stop').addEventListener('click', function(){
+        clearInterval(stopWishing2)
+        clearInterval(stopWishing1)
+       })
+     </script>
+</html>
