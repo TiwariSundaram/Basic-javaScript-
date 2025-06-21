@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: #212121; color:aqua">
+    <h2 id="name">Jay Shree Ram</h2>
+    <button id="stop">stop</button>
+</body>
+<script>
+
+    setTimeout(function(){
+        document.getElementById('name').innerHTML="Jay Mahakal"
+    },2000)
+
+    const nameChange = function(){
+        document.getElementById('name').innerHTML="Radhe Radhe"
+    }
+    const Radhe= setTimeout(nameChange,4000)
+    
+     document.querySelector('#stop').addEventListener('click',function(){
+           clearTimeout(Radhe)
+           console.log("clicked");
+           
+    })
+
+</script>
+</html>
